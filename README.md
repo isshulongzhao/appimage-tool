@@ -6,13 +6,13 @@
 
 ./appimage-tool -h
 
-![1734264810830](https://github.com/user-attachments/assets/f4cfc573-fbbd-4ae7-94c2-40a5e96f1f07)
+![1734265109649](https://github.com/user-attachments/assets/18a5834e-061b-473a-88c0-d2ca3edf8c88)
 
 ## 单个文件转换
 
 ./appimage-tool --path /root/tools/xinchuang/original/erfrp_s_X86_64 --arch x86_64
 
-![1734264850829](https://github.com/user-attachments/assets/f4e37c63-e4c8-45b2-860b-885554755f09)
+![1734265052398](https://github.com/user-attachments/assets/7903f0a1-967e-423f-99fd-554eb13a00b9)
 
 ## 自动识别文件架构
 如果不指定文件架构，`appimage-tool` 会通过 `file` 命令自动识别文件架构。若识别失败，默认会使用 `x86_64` 类型进行转换。
